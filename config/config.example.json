@@ -1,0 +1,15 @@
+{
+  "commandPrefix": "!",
+  "debug": false,
+  "rating": {
+    "funnyReplies": false,
+    "showLinks": true
+  },
+  "channels": [
+    "#CHANGEME"
+  ],
+  "identity": {
+    "username": "CHANGEME",
+    "password": "oauth:CHANGEME"
+  }
+}

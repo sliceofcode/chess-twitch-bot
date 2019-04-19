@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+
+# PhpStorm / Intellij IDE
+.idea/
+
+# Dist folder
+dist/*
+
+# Bot config
+config/config.json
+
+# Folder to throw in your local dev files
+.dev/
