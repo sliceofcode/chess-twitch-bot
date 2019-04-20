@@ -36,7 +36,7 @@ You can create a new username on Twitch, or use your existing one to test this o
 1. Log in on Twitch, go to https://twitchapps.com/tmi/ and click on the "Connect with Twitch" button. 
 This will generate a password which looks like `oauth:aaabbbcccdddeeefffggghhhiiihhh`. 
 Set that as the `identity.password` value.
-1. Open the Terminal, and run the following command to build the bot: `npm run build`
+1. Open the Terminal, and run the following command to build the bot: `npm install`
 1. Execute the command `npm start` to run the chess twitch bot
 1. Open your Twitch channel in the browser and check out the bot commands! :)
 
