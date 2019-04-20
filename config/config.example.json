@@ -1,5 +1,6 @@
 {
   "commandPrefix": "!",
+  "messagePrefix": "[Chess.com] ",
   "debug": false,
   "rating": {
     "funnyReplies": false,
@@ -11,5 +12,6 @@
   "identity": {
     "username": "CHANGEME",
     "password": "oauth:CHANGEME"
-  }
+  },
+  "userAgent": "ChessTwitchBot - Please contact user@example.com for rate limits issues."
 }

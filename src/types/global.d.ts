@@ -2,6 +2,7 @@ declare namespace NodeJS {
     export interface Global {
         botConfig: {
             commandPrefix: string,
+            messagePrefix: string,
             debug: boolean,
             rating: {
                 funnyReplies: boolean,
@@ -11,8 +12,8 @@ declare namespace NodeJS {
             identity: {
                 username: string,
                 password: string
-            }
-
+            },
+            userAgent: string
         }
     }
 }

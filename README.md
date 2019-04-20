@@ -13,6 +13,18 @@ You can reach out to me via:
 - Discord: https://discord.gg/26kwx8S
 - Twitch Whisper: `slice_of_code`
 
+## Screenshots
+![](screenshots/command_rating.png)
+![](screenshots/command_profile.png)
+![](screenshots/command_online.png)
+
+## Commands
+- !help
+- !rating \<user>
+- !rating \<user> \<type>
+- !profile \<user>
+- !online \<user>
+
 ## Development Setup
 Make sure you have NodeJS 10.15 installed (and commands `node`, `npm` and `npx` work in your terminal).
 You can create a new username on Twitch, or use your existing one to test this out.
@@ -43,16 +55,12 @@ Example for the minimal config (`config/config.json`) required considering Twitc
 }
 ```
 
-## Commands
-- !rating \<user> \<type> (v0.1.0)
 
 ## Reference
 - Chess.com Published-Data API
   - https://www.chess.com/news/view/published-data-api
 - TwitchJS - A community-centric, community-supported version of tmi.js 
   - https://github.com/twitch-devs/twitch-js
-- Twitch message limits
-  - https://discuss.dev.twitch.tv/t/how-are-some-bots-able-to-bypass-the-message-limit/9026/21
 
 ## License
 MIT License

@@ -1,6 +1,6 @@
 {
   "name": "chess-twitch-bot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Twitch bot with commands to interact with Chess.com",
   "main": "src/index.ts",
   "scripts": {

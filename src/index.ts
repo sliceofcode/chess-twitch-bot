@@ -49,6 +49,9 @@ client.on('chat', (channel: string, user: object, message: string, self: boolean
             console.debug(`Calling the handler function now`);
             command.handler()
                 .then((responseMessage) => {
+                        if (command.useMessagePrefix()) {
+                            responseMessage = global.botConfig.messagePrefix + responseMessage;
+                        }
                         client.say(channel, responseMessage);
                     }
                 )
