@@ -4,6 +4,7 @@ const customConfig = require('../../config/config.json');
 
 const config = _.extend({
     commandPrefix: '!',
+    messagePrefix: '[Chess.com] ',
     debug: false,
     rating: {
         funnyReplies: false,
@@ -13,7 +14,8 @@ const config = _.extend({
     identity: {
         username: '',
         password: ''
-    }
+    },
+    userAgent: 'ChessTwitchBot - No contact details provided'
 }, customConfig);
 
 global.botConfig = config;

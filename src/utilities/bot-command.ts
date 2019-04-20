@@ -3,12 +3,15 @@ import * as _ from 'lodash';
 export class BotCommand {
 
     // List of supported bot commands
-    protected static readonly commands: Array<string> = [
+    public static readonly commands: Array<string> = [
         'help',
-        'rating'
+        'online',
+        'profile',
+        'rating',
     ];
 
     // Extract the command from the message
+    // TODO: Improve the command detection to better handle many chat messages and use less resources for processing
     public static getCommandName(message: string): string {
         // Get rid of any leading/trailing whitespace chars
         message = _.trim(message);
